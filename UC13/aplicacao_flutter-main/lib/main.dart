@@ -1,5 +1,6 @@
 // import 'package:aplicacao_flutter/screens/perfil_screen.dart';
-import 'package:aplicacao_flutter/screens/catalogo_screen.dart';
+// import 'package:aplicacao_flutter/screens/catalogo_screen.dart';
+import 'package:aplicacao_flutter/screens/preference_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       // Home recebe nosso primeiro Wifget
       // que será exibido pelo aplicativo
       // home: const PerfilScreen(),
-      home: const CatalogoScreen(),
+      // home: const CatalogoScreen(),
+      home: const PreferenceScreen(),
     );
   }
 }
